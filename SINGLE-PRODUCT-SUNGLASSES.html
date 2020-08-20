@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNGLASSES D&G</title>
+    <link rel="icon" href="images/D&G.png">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/3.0.8/jquery.elevatezoom.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="single">
+    <div id="loader" class="page-loading">
+        <div class="loader">Loading...</div>
+    </div>
+    <header>
+        <div id="page" class="page">
+        <div class="discount">Click Here >>><i class="fa fa-plus" aria-hidden="true"></i>Up to 30% off sitewide. Extra 40% off sale. Free shipping on 2+ items.</div>
+        <div class="shippingDiscount">
+        <div class="modalDiscount">
+            <i class="fas fa-times" id="exitModal"></i>
+            <h3>KEEP IN TOUCH</h3>
+            <p>Sign up for news on our latest arrivals, exclusive promotions + events.</p>
+            <input type="email" id ="email" placeholder="Enter your email adress">
+            <button id="signUp">SIGN UP</button>
+            <div class="checkbox">
+            <input type="checkbox" id="checkbox" name="">
+            <p>I would like to receive updates on the latest products and promotions via email or other channels. Please see our Privacy Policy for more information.</p>
+        </div>
+        </div>
+    </div>
+    <div class="Contact">
+        <div class="contactUs">
+            <i class="fas fa-times" id="openContact"></i>
+            <h2>Contact Us</h2>
+            <p>If you have questions about your order or need any general information our customer service team will be happy to assist you.<br><br>
+                Let us know how we may help you regarding your "My Account" page.<br><br></p>
+                <div class="fills">
+                <h4>Your language*</h4>
+            <select name="language" id="language">
+                <option value="Choice">Please enter your language</option>
+                <option value="English">English</option>
+                <option value="Hebrew">Hebrew</option>
+                <option value="Italian">Italian</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+            </select>
+            <h4>Country*</h4>
+            <select name="Country" id="Country">
+                <option value="Choice">Select country</option>
+                <option value="USA">USA</option>
+                <option value="Israel">Israel</option>
+                <option value="Italia">Italia</option>
+                <option value="French">French</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <h4>First Name*</h4>
+            <input type="text" placeholder="First Name" id="First">
+            <h4>Last Name*</h4>
+            <input type="text" placeholder="Last Name" id="Last">
+            <h4>E-mail*</h4>
+            <input type="email" placeholder="Example@gmail.com" id="Example"><br><br>
+            <button id="BtnFill" >Submit</button>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="navbar">
+            <div class="container">
+                <i class="fa fa-bars" id="Navigation" aria-hidden="true"></i>
+                <i class="fas fa-search" id="openSearch"></i>
+                <i class="fas fa-shopping-bag" id="openBag"><span>0</span></i>
+                <i class="far fa-heart" id="openWish"><span>0</span></i>
+                <div class="SideNav" id="SideNav">
+                    <i class="far fa-times-circle" id="exitNav"></i>
+                    <ul>
+                        <ol class="categories" href="">
+                            <img src="images/menu-logo.png" width="100%" alt="">
+                        </ol>
+                        <li class="categories">
+                            <a href="MAN.html">MEN</a>
+                        </li>
+                        <li class="categories">
+                            <a href="WOMEN.html">WOMEN</a>
+                        </li>
+                        <li class="categories">
+                            <a href="CHILD.html">KIDS</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">WATCHES</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">EYEWEAR</a>
+                        </li>
+                        <li class="categories">
+                            <a id="Con">CONTACT US</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">STORY</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="Search" id="Search">
+                    <i class="far fa-times-circle" id="exitSearch"></i>
+                    <h2>we wish you to find your product <i class="fab fa-angellist"></i></h2>
+                    <input type="text" placeholder="  Search..." id="Find" ></input>
+                    <a href="#" id="btnSearch">Search</i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="likeItems" id="likeItems">
+            <i class="far fa-times-circle" id="CloseLikeItems"></i>
+            <h2>Wish List</h2>
+            <div class="products-containner">
+                <div class="products-header">
+              
+                </div>
+                <div class="prodectss"></div>
+            </div>
+            <div class="moneyButton">
+                <div class="totalPrice">
+
+                </div>
+                <button class="buttonPay">Go To Cart !</button>
+                <div class="PayPalButton">
+                <span class="paypal-button-title">
+                    Pay with
+                  </span>
+                  <span class="paypal-logo">
+                    <i class="Pay">Pay</i><i class="Pal">Pal</i>
+                  </span>
+                </div>
+                
+            </div>       
+        </div>
+
+        
+
+        <div class="BuyItems" id="BuyItems">
+            <i class="far fa-times-circle" id="CloseBuyItems"></i>
+            <h2>Give us your money</h2>
+            <div class="content-cart">
+
+            </div>
+            <div class="moneyButton">
+                <button class="buttonPay">Let's Pay!</button>
+                <div class="PayPalButton">
+                <span class="paypal-button-title">
+                    Pay with
+                  </span>
+                  <span class="paypal-logo">
+                    <i class="Pay">Pay</i><i class="Pal">Pal</i>
+                  </span>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="mainLogo">
+            <a href="HOME.html"><img src="images/menu-logo.png" alt=""></a>
+        </div>
+
+        <div class="title-single-product">
+            <h3>Dolce & Gabbana present your item</h3>
+        </div>
+
+        <div class="single-product">
+            <div class="image_description">
+                <div class="image-product">
+                    <img id="zoom_01" src="images/manSunglasses (4).jpg" alt="">
+                </div>
+                <div class="description">
+                    <h3>DAYMASTER SUNGLASSES IN MIXED MATERIALS</h3>
+                    <p>The Daymaster sunglasses are the Mini Me version from the Men’s collection.<br>The little customer
+                        will be able to imitate their Dad wearing the new sunglasses,<br> distinctive with their bulky
+                        structure and made of elastic jersey with reflective details.<br>
+                        • Upper in elastic jersey with inserts in suede, faux leather and reflective fabric<br>
+                        • Round laces with jacquard logo<br>
+                        • Stitched tongue with logoed leather label<br>
+                        • Logoed puller tab on the back in ribbon<br>
+                        • Leather footbed with heat-impressed logo<br>
+                        • Rubber composed sole<br>
+                        • Made in Italy<br><br>
+                        Code: DA0904AX0368B532</p><br><br>
+                        <select name="Size" id="Size">
+                            <option value="none">Select size</option>
+                            <option value="XL">XL</option>
+                            <option value="L">L</option>
+                            <option value="M">M</option>
+                            <option value="S">S</option>
+                            <option value="XS">XS</option>
+
+                        </select>
+                        <div id="input_div">
+                            <button type="Minus" id="minus">-</button>
+                            <input type="text" placeholder="Amount" id="count">
+                            <button type="Plus" id="plus">+</button>
+                        </div>
+                        
+                    <div class="price_product">
+                        <h4>850 €</h4>
+                    </div>
+                    <div class="button_wish_cart">
+                    <div class="button_product">
+                        <button class="addToCart" id="addToCart">Add to Cart</button>
+                    </div>
+                    <div class="button_product_wish">
+                        <button class="button"id="addToWish">Add To Wish</button>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="comments">
+            <div class="container">
+                <div class="tittle_comm">
+                    <h3 id="comentsbutton" style="color: rgb(14, 14, 14);">Comments</h3>
+                </div>
+                <div class="comm">
+                    <div class="headcomments">
+                        <div class="imagecomm">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="name_date">
+                            <p class="namecomm1">Eyal Golan</p>
+                            <p class="datecomm">Wed Aug 12 2020</p>
+                        </div>
+                    </div>
+                    <div class="footercomm">
+                        <p class="comm1">
+                            "Fast delivery and very high quality products!"
+                        </p>
+                    </div>
+                </div>
+                <div class="comm">
+                    <div class="headcomments">
+                        <div class="imagecomm">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="name_date">
+                            <p class="namecomm1">Omer Adam</p>
+                            <p class="datecomm">Wed Aug 12 2020</p>
+                        </div>
+                    </div>
+                    <div class="footercomm">
+                        <p class="comm1">
+                            "I agree with what King Eyal Golan said"
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="writecomm">
+            <div class="container">
+                <p id="writecomments" style="color: rgb(143, 143, 143);">Write comment</p>
+                <div class="headwritecomm">
+                    <input type="text" id="namewcomm" placeholder="Full Name:">
+                </div>
+                <div class="footerwritecomm">
+                    <input type="text" id="commuser" placeholder="Write Comments: ">
+                    <button id="sendcomm">Send</button>
+    
+                </div>
+    
+    
+            </div>
+        </div>
+        <div class="newslatter">
+            <h1>Sign up for the Dolce & Gabbana newsletter now!</h1>
+            <input type="email" id="newsmail" placeholder="Email"></input>
+            <a href="#" id="btn">Sign Up <i class="fa fa-paper-plane"></i></a>
+        </div>
+
+        <div class="footer">
+            <div class="fotterLogo">
+                <img src="images/footerlogo.png" alt="">
+            </div>
+
+            <div class="fotterDetails">
+             <div class="customer-service">
+                <h4>CUSTUMER SERVICE</h4>
+                <ul>
+                    <li>
+                        <a href="">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="">OPENING </a>
+                    </li>
+                    <li>
+                        <a href="">HOW TO SHOP</a>
+                    </li>
+                    <li>
+                        <a href="">SHIPPING</a>
+                    </li>
+                    <li>
+                        <a href="">RETURNS</a>
+                    </li>
+                    <li>
+                        <a href="">TRACK YOUR ORDER</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="fotterWomen">
+                <h4>WOMEN</h4>
+                <ul>
+                    <li>
+                        <a href="">VIEW ALL</a>
+                    </li>
+                    <li>
+                        <a href="">HIGHLIGHTS</a>
+                    </li>
+                    <li>
+                        <a href="">CLOTHING</a>
+                    </li>
+                    <li>
+                        <a href="">BAGS</a>
+                    </li>
+                    <li>
+                        <a href="">SHOES</a>
+                    </li>
+                    <li>
+                        <a href="">TACCESSORIES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="fotterMen">
+                <h4>MEN</h4>
+                <ul>
+                    <li>
+                        <a href="">VIEW ALL</a>
+                    </li>
+                    <li>
+                        <a href="">HIGHLIGHTS</a>
+                    </li>
+                    <li>
+                        <a href="">CLOTHING</a>
+                    </li>
+                    <li>
+                        <a href="">BAGS</a>
+                    </li>
+                    <li>
+                        <a href="">SHOES</a>
+                    </li>
+                    <li>
+                        <a href="">TACCESSORIES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="fotterChildren">
+                <h4>CHILDREN</h4>
+                <ul>
+                    <li>
+                        <a href="">VIEW ALL</a>
+                    </li>
+                    <li>
+                        <a href="">HIGHLIGHTS</a>
+                    </li>
+                    <li>
+                        <a href="">CLOTHING</a>
+                    </li>
+                    <li>
+                        <a href="">BAGS</a>
+                    </li>
+                    <li>
+                        <a href="">SHOES</a>
+                    </li>
+                    <li>
+                        <a href="">TACCESSORIES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="fotterEyewere">
+                <h4>EYEWERE</h4>
+                <ul>
+                    <li>
+                        <a href="">VIEW ALL</a>
+                    </li>
+                    <li>
+                        <a href="">MEN</a>
+                    </li>
+                    <li>
+                        <a href="">WOMEN</a>
+                    </li>
+                    <li>
+                        <a href="">CHILDREN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-page">
+                <div class="form">
+                  <form class="register-form">
+                      <h3>STAY IN TOUCH!</h3>
+                    <input type="text" placeholder=" name"/>
+                    <input type="password" placeholder=" password"/>
+                    <input type="text" placeholder=" email address"/>
+                    <button>create</button>
+                    <p class="message">Already registered? <a href="#">Sign In</a></p>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
+            <div class="about">
+                <img src="images/logo.png" width="120px" height="120px">
+                <p>Copyright 2020 All Rights Reserved by Roey Ben Harush © Dolce&Gabbana</p> 
+                 
+            </div>
+
+        </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

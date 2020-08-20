@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOLCE & GABBANA</title>
+    <link rel="icon" href="images/D&G1.png">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="loader" class="page-loading">
+        <div class="loader">Loading...</div>
+    </div>
+    <header>
+        <div id="page" class="page">
+            <div class="discount">Click Here >>><i class="fa fa-plus" aria-hidden="true"></i>Up to 30% off sitewide. Extra 40% off sale. Free shipping on 2+ items.</div>
+            <div class="shippingDiscount">
+            <div class="modalDiscount">
+                <i class="fas fa-times" id="exitModal"></i>
+                <h3>KEEP IN TOUCH</h3>
+                <p>Sign up for news on our latest arrivals, exclusive promotions + events.</p>
+                <input type="email" id ="email" placeholder="Enter your email adress">
+                <button id="signUp">SIGN UP</button>
+                <div class="checkbox">
+                <input type="checkbox" id="checkbox" name="">
+                <p>I would like to receive updates on the latest products and promotions via email or other channels. Please see our Privacy Policy for more information.</p>
+            </div>
+            </div>
+        </div>
+        <div class="Contact">
+        <div class="contactUs">
+            <i class="fas fa-times" id="openContact"></i>
+            <h2>Contact Us</h2>
+            <p>If you have questions about your order or need any general information our customer service team will be happy to assist you.<br><br>
+                Let us know how we may help you regarding your "My Account" page.<br><br></p>
+                <div class="fills">
+                <h4>Your language*</h4>
+            <select name="language" id="language">
+                <option value="Choice">Please enter your language</option>
+                <option value="English">English</option>
+                <option value="Hebrew">Hebrew</option>
+                <option value="Italian">Italian</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+            </select>
+            <h4>Country*</h4>
+            <select name="Country" id="Country">
+                <option value="Choice">Select country</option>
+                <option value="USA">USA</option>
+                <option value="Israel">Israel</option>
+                <option value="Italia">Italia</option>
+                <option value="French">French</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <h4>First Name*</h4>
+            <input type="text" placeholder="First Name" id="First">
+            <h4>Last Name*</h4>
+            <input type="text" placeholder="Last Name" id="Last">
+            <h4>E-mail*</h4>
+            <input type="email" placeholder="Example@gmail.com" id="Example"><br><br>
+            <button id="BtnFill" >Submit</button>
+
+        </div>
+        </div>
+        </div>
+
+        <div class="PaymentPage">
+            <div class="PayMoney">
+                <i class="fas fa-times" id="paymoney"></i>
+                <h3 id="Checkout">Checkout</h3>
+                <div class="totalCart">
+                    
+                </div>
+                <div class="firstStep">
+                <h2><span class="firstSpan">1</span>Your Basic Information</h2>
+                <h4>First Name</h4>
+                <input type="text" placeholder="David">
+                <h4>Last Name</h4>
+                <input type="text" placeholder="Beckahm">
+                <h4>E-mail</h4>
+                <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="secoundStep">
+                <h2><span class="secoundSpan">2</span>Your Payment Information</h2>
+                <h4>Credit Card</h4>
+                <input type="text" maxlength="4" placeholder="1234" id="credit1">
+                <input type="text" maxlength="4" placeholder="1234" id="credit2">
+                <input type="text" maxlength="4" placeholder="1234" id="credit3">
+                <input type="text" maxlength="4" placeholder="1234" id="credit4">
+                <h4>Expiration Date & CVC</h4>
+                <input type="text" placeholder="MM" maxlength="2" id="MM">
+                <input type="text" placeholder="YY" maxlength="2" id="YY">
+                <input type="text" placeholder="CVC" maxlength="3" id="CVC"><br>
+                <button class="LetsPay">Pay !</button>
+            </div>
+            
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="navbar">
+            <div class="container">
+                <i class="fa fa-bars" id="Navigation" aria-hidden="true"></i>
+                <i class="fas fa-search" id="openSearch"></i>
+                <i class="fas fa-shopping-bag" id="openBag"><span>0</span></i>
+                <i class="far fa-heart" id="openWish"><span>0</span></i>
+                <div class="SideNav" id="SideNav">
+                    <i class="far fa-times-circle" id="exitNav"></i>
+                    <ul>
+                        <ol class="categories" href="">
+                            <img src="images/menu-logo.png" width="100%" alt="">
+                        </ol>
+                        <li class="categories">
+                            <a href="MAN.html">MEN</a>
+                        </li>
+                        <li class="categories">
+                            <a href="WOMEN.html">WOMEN</a>
+                        </li>
+                        <li class="categories">
+                            <a href="CHILD.html">KIDS</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">WATCHES</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">EYEWEAR</a>
+                        </li>
+                        <li class="categories">
+                            <a id="Con">CONTACT US</a>
+                        </li>
+                        <li class="categories">
+                            <a href="">STORY</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Search" id="Search">
+                    <i class="far fa-times-circle" id="exitSearch"></i>
+                    <h2>we wish you to find your product <i class="fab fa-angellist"></i></h2>
+                    <input type="text" placeholder="  Search..." id="Find" ></input>
+                    <a href="#" id="btnSearch">Search</i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="likeItems" id="likeItems">
+            <i class="far fa-times-circle" id="CloseLikeItems"></i>
+            <h2>Wish List</h2>
+            <div class="products-containner">
+                <div class="products-header">
+              
+                </div>
+                <div class="prodectss"></div>
+            </div>
+            <div class="moneyButton">
+                <div class="totalPrice">
+
+                </div>
+                <button class="buttonPay">Go To Cart !</button>
+                <div class="PayPalButton">
+                <span class="paypal-button-title">
+                    Pay with
+                  </span>
+                  <span class="paypal-logo">
+                    <i class="Pay">Pay</i><i class="Pal">Pal</i>
+                  </span>
+                </div>
+                
+            </div>       
+        </div>
+
+        
+
+        <div class="BuyItems" id="BuyItems">
+            <i class="far fa-times-circle" id="CloseBuyItems"></i>
+            <h2>Give us your money</h2>
+            <div class="content-cart">
+                
+            </div>
+            <div class="moneyButton">
+            <button class="buttonPay" id="buttonPay">Let's Pay!</button>
+            <div class="PayPalButton">
+            <span class="paypal-button-title">
+                Pay with
+              </span>
+              <span class="paypal-logo">
+                <i class="Pay">Pay</i><i class="Pal">Pal</i>
+              </span>
+            </div>
+            
+        </div>
+        </div>
+
+        <div class="mainLogo">
+            <a href="HOME.html"><img src="images/menu-logo.png" alt=""></a>
+        </div>
+        <div class="main">
+            <div class="slider">
+                <div id = "divLeft">
+                <i data-number="0" id="leftImg" class="fas fa-chevron-left"></i>
+            </div>
+            <div id = "divRight">
+                <i data-number="1" id="rightImg" class="fas fa-chevron-right"></i>
+            </div>
+                <div class="inner_slider">
+                    <img class="image_slider" src="images/רקע 4.jpg" alt="" width="100%" height="100%" style="display: block;">
+                    <img class="image_slider" src="images/רקע 2.jpg" alt="" width="100%" height="100%">
+                    <img class="image_slider" src="images/רקע 3.jpg" alt="" width="100%" height="100%">
+                    <img class="image_slider" src="images/רקע 1.jpg" alt="" width="100%" height="100%">
+                    <img class="image_slider" src="images/רקע 5.jpg" alt="" width="100%" height="100%">
+                    <img class="image_slider" src="images/רקע 6.jpg" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+            <div class="subtitleCategories">
+                <h2>DOLCE & GABBANA in eco-friendly production</h2>
+                <a href="" class="button">Do your own part</a>
+            </div>
+            <div class="animated">
+                <div class="animated-hinge">
+                <div id="itmes">
+                    <div data-aos="fade-right">
+                <div class="items">
+                    <div class="container-fluid">
+                        <div class="Card">
+                            <a href="WOMEN.html"> <img src="images/נשים.jpg" alt="" width="99%" height="80%"></a>
+                            <h3>Natural fabrics</h3>
+                            <a href="WOMEN.html" class="button">Shop now</a>
+                        </div>
+                        <div class="Card">
+                            <a href="MAN.html"> <img src="images/גברים2.jpg" alt="" width="99%" height="80%"></a>
+                            <h3>The ultimate looks</h3>
+                            <a href="MAN.html" class="button">Shop now</a>
+                        </div>
+                        <div class="Card">
+                            <a href="CHILD.html"> <img src="images/ילדים.jpg" alt="" width="99%" height="80%"></a>
+                            <h3>Children's collection</h3>
+                            <a href="CHILD.html" class="button">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+
+            <div class="sneakers">
+                <div class="leftImage">
+                </div>
+                <div class="newSneakers">
+                    <h3>Daymaster Sneakers</h3>
+                    <h4>Where volume becomes the protagonist</h4>
+                    <div class="buttonShoes">
+                        <a href="" class="button">Shop now</a>
+                    </div>
+                    <div class="product_slider_img">
+                        <div class="shoes">
+                            <img class="shoes_slider" src="images/shoe.jpg" alt="" style="display: block;">
+                            <h4 style="display: block;" class="textH4">Daymaster sneakers in nappa calfskin</h4>
+                            <h4 style="display: block;" class="priceH4">€295</h4>
+                            <img class="shoes_slider" src="images/shoe2.jpg" alt="">
+                            <h4 class="textH4">Daymaster sneakers in nappa</h4>
+                            <h4 class="priceH4">€395</h4>
+                            <img class="shoes_slider" src="images/shoe3.jpg" alt="">
+                            <h4 class="textH4">Daymaster sneakers in stretch knit isreal</h4>
+                            <h4 class="priceH4">€645</h4>
+                            <img class="shoes_slider" src="images/shoe4.jpg" alt="">
+                            <h4 class="textH4">Daymaster sneakers in stretch knit fabric</h4>
+                            <h4 class="priceH4">€445</h4>
+                            <img class="shoes_slider" src="images/shoe5.jpg" alt="">
+                            <h4 class="textH4">Daymaster sneakers in stretch knit allsaint</h4>
+                            <h4 class="priceH4">€745</h4>
+                            <img class="shoes_slider" src="images/shoe6.jpg" alt="">
+                            <h4 class="textH4">Daymaster sneakers in stretch  fabric</h4>
+                            <h4 class="priceH4">€1045</h4>
+                        </div>
+                        <div class="icons">
+                            <i data-number="1" id="leftShoes" class="fas fa-chevron-left"></i>
+                            <i data-number="0" id="rightShoes" class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Must-Have">
+                <h3>Must-have</h3>
+                <h4>10 items</h4>
+                <div class="container-fluid">
+                    <div class="tenItems">
+                        <div class="mySlides">
+
+                            <a href=""> <img class="myItems" src="images/משקפיים.jpg" width="450px" height="500px"
+                                    alt="" style="display: block;">
+                                <h4>Sunglasses</h4>
+                                <h6>Starting from €250</h6>
+
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must1.jpg" width="450px" height="500px" alt=""
+                                    style="display: block;">
+                                <h4>kerchief</h4>
+                                <h6>Starting from €150</h6>
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must2.jpg" width="450px" height="500px" alt=""
+                                    style="display: block;">
+                                <h4>Shoes 2020</h4>
+                                <h6>Starting from €350</h6>
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must3.jpg" width="450px" height="500px" alt=""
+                                    style="display: block;">
+                                <h4>Wallet</h4>
+                                <h6>Starting from €250</h6>
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must4.jpg" width="450px" height="500px" alt="">
+                                <h4>Belts</h4>
+                                <h6>Starting from €250</h6>
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must5.jpg" width="450px" height="500px" alt="">
+                                <h4>Begs</h4>
+                                <h6>Starting from €450</h6>
+                        </div>
+
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must6.jpg" width="450px" height="500px" alt="">
+                                <h4>Sunglasses</h4>
+                                <h6>Starting from €250</h6>
+                        </div>
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must7.jpg" width="450px" height="500px" alt="">
+                                <h4>Begs</h4>
+                                <h6>Starting from €450</h6>
+                        </div>
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must8.jpg" width="450px" height="500px" alt="">
+                                <h4>Blanket</h4>
+                                <h6>Starting from €250</h6>
+                        </div>
+                        <div class="mySlides">
+                            <a href=""> <img class="myItems" src="images/must9.jpg" width="450px" height="500px" alt="">
+                                <h4>Begs</h4>
+                                <h6>Starting from €350</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="EYEWEAR">
+                    <h1>It's time to #DGYOURSELF</h1>
+                    <a href="" class="button">Start your customization</a>
+                    <div class="menWomen">
+                        <div class="womenSun">
+                            <img src="images/womenSun.jpg" width="99%" alt="">
+                            <h3>##DGEyewear Collection for Women</h3>
+                            <a href="" class="button">Shop now</a>
+                        </div>
+                        <div class="menSun">
+                            <img src="images/mensun.jpg" width="99%" alt="">
+                            <h3>##DGEyewear Collection for Men</h3>
+                            <a href="" class="button">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="worldDG">
+                <h1>World of Dolce & Gabbana</h1>
+             <h2>We invite you to come to the 2020 fashion show</h2>
+             <h4>Coming soon...</h4>
+            </div>
+            <div class="newslatter">
+                <h1>Sign up for the Dolce & Gabbana newsletter now!</h1>
+                <input type="email" id="newsmail" placeholder="Email">
+                <a href="#" id="btn">Sign Up <i class="fa fa-paper-plane"></i></a>
+            </div>
+
+            <div class="footer">
+                <div class="fotterLogo">
+                    <img src="images/footerlogo.png" alt="">
+                </div>
+
+                <div class="fotterDetails">
+                 <div class="customer-service">
+                    <h4>CUSTUMER SERVICE</h4>
+                    <ul>
+                        <li>
+                            <a href="">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="">OPENING </a>
+                        </li>
+                        <li>
+                            <a href="">HOW TO SHOP</a>
+                        </li>
+                        <li>
+                            <a href="">SHIPPING</a>
+                        </li>
+                        <li>
+                            <a href="">RETURNS</a>
+                        </li>
+                        <li>
+                            <a href="">TRACK YOUR ORDER</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="fotterWomen">
+                    <h4>WOMEN</h4>
+                    <ul>
+                        <li>
+                            <a href="">VIEW ALL</a>
+                        </li>
+                        <li>
+                            <a href="">HIGHLIGHTS</a>
+                        </li>
+                        <li>
+                            <a href="">CLOTHING</a>
+                        </li>
+                        <li>
+                            <a href="">BAGS</a>
+                        </li>
+                        <li>
+                            <a href="">SHOES</a>
+                        </li>
+                        <li>
+                            <a href="">TACCESSORIES
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="fotterMen">
+                    <h4>MEN</h4>
+                    <ul>
+                        <li>
+                            <a href="">VIEW ALL</a>
+                        </li>
+                        <li>
+                            <a href="">HIGHLIGHTS</a>
+                        </li>
+                        <li>
+                            <a href="">CLOTHING</a>
+                        </li>
+                        <li>
+                            <a href="">BAGS</a>
+                        </li>
+                        <li>
+                            <a href="">SHOES</a>
+                        </li>
+                        <li>
+                            <a href="">TACCESSORIES
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="fotterChildren">
+                    <h4>CHILDREN</h4>
+                    <ul>
+                        <li>
+                            <a href="">VIEW ALL</a>
+                        </li>
+                        <li>
+                            <a href="">HIGHLIGHTS</a>
+                        </li>
+                        <li>
+                            <a href="">CLOTHING</a>
+                        </li>
+                        <li>
+                            <a href="">BAGS</a>
+                        </li>
+                        <li>
+                            <a href="">SHOES</a>
+                        </li>
+                        <li>
+                            <a href="">TACCESSORIES
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="fotterEyewere">
+                    <h4>EYEWERE</h4>
+                    <ul>
+                        <li>
+                            <a href="">VIEW ALL</a>
+                        </li>
+                        <li>
+                            <a href="">MEN</a>
+                        </li>
+                        <li>
+                            <a href="">WOMEN</a>
+                        </li>
+                        <li>
+                            <a href="">CHILDREN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-page">
+                    <div class="form">
+                      <form class="register-form">
+                          <h3>STAY IN TOUCH!</h3>
+                        <input type="text" placeholder=" name"/>
+                        <input type="password" placeholder=" password"/>
+                        <input type="text" placeholder=" email address"/>
+                        <button>create</button>
+                        <p class="message">Already registered? <a href="#">Sign In</a></p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                <div class="about">
+                    <img src="images/logo.png" width="120px" height="120px">
+                    <p>Copyright 2020 All Rights Reserved by Roey Ben Harush © Dolce&Gabbana</p> 
+                     
+                </div>
+
+    
+
+            
+
+
+     
+
+
+        </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
